@@ -158,10 +158,11 @@ This app uses the [WeatherAPI.com](https://www.weatherapi.com/) API to fetch wea
 This project is open source and available under the MIT License.
 
 ## Author
-
+Fidel Ojimba
 Created as a weather app learning project.
 
 ## Acknowledgments
 
+- Built as part of [The Odin Project](https://www.theodinproject.com/) JavaScript Weather App project
 - Weather data provided by [WeatherAPI.com](https://www.weatherapi.com/)
 - Outfit font by Rodrigo Fuenzalida
