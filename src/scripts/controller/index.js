@@ -18,15 +18,11 @@ const performSearch = () => {
     return;
   }
 
-  const urlBase = "http://api.weatherapi.com/v1/forecast.json";
+  const urlBase = "https://api.weatherapi.com/v1/forecast.json";
 
   const location = encodedValue;
 
-  const unitGroup = "us";
-
   const apiKey = "40ce670e12b449a3b95215452261105";
-
-  const contentType = "json";
 
   const url = `${urlBase}?key=${apiKey}&q=${location}`;
 
