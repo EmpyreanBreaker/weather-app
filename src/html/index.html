@@ -6,9 +6,38 @@
     <title>Weather App</title>
   </head>
   <body>
-    <label class="search__label" for="search">Search Box:</label>
-    <input class="search__input" type="text" id="search" name="gifs" required />
-    <span><button class="search__button">Submit</button></span>
-    <img src="#" alt="" />
+    <div class="search-container">
+      <label class="search__label" for="search">Weather Search</label>
+      <div class="search-wrapper">
+        <input
+          class="search__input"
+          type="text"
+          id="search"
+          name="search"
+          placeholder="Enter city name..."
+          required
+        />
+        <button class="search__button">Search</button>
+      </div>
+    </div>
+
+    <div class="location-info">
+      <h2 class="location__name"></h2>
+      <p class="location__region"></p>
+      <p class="location__country"></p>
+    </div>
+
+    <div class="weather-info">
+      <div class="weather-info-left">
+        <p class="weather__condition"></p>
+        <p class="weather__temp"></p>
+      </div>
+      <div class="weather-info-right">
+        <p class="weather__feelslike"></p>
+        <p class="weather__wind"></p>
+        <p class="weather__humidity"></p>
+        <img class="weather__icon" src="#" alt="Weather condition icon" />
+      </div>
+    </div>
   </body>
 </html>
